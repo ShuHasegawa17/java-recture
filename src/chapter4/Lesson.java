@@ -8,7 +8,6 @@ public class Lesson {
 		int[] scores = new int[5];
 		scores[2] = 10;
 		System.out.println("scores:" + scores[2]);
-		System.out.println("配列の長さは" + scores.length);
 
 		// 配列の生成+初期化
 		int[] scores1 = new int[] { 10, 20, 30, 40, 50 };
