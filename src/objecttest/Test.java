@@ -17,5 +17,9 @@ class Main {
 		System.out.println(t2.name); // たかし
 		// ※本来クラスフィールドのアクセスはクラス名でアクセスする。(Test.name)
 		// 説明のため、インスタンスでアクセスしている。
+		
+//		Car c = new Car();
+//		c.run();
+		//c.enging();
 	}
 }
