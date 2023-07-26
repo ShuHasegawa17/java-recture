@@ -21,16 +21,13 @@ public class FileOperation {
 
 				if (num == 1) {
 					System.out.println("書き込む文字列を入力してください");
-					String message;
-
-					message = sc.next();
+					
+					String message = sc.next();
 					fileUtil.write(message);
 					System.out.println("書き込みました");
 
 				} else {
-					List<String> messages;
-
-					messages = fileUtil.read();
+					List<String>  messages = fileUtil.read();
 					for (String msg : messages) {
 						System.out.println(msg);
 					}
