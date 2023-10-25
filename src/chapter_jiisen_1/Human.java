@@ -43,7 +43,6 @@ public class Human implements Comparable<Human> {
 		} else {
 			return 0;
 		}
-
 	}
 	
 }

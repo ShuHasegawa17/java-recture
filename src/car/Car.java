@@ -8,14 +8,14 @@ public class Car {
 	//メソッド
 	public void gearChange(int afterGear) {
 		//ギアの値により速度を変える　
-		this.speed = switch (afterGear) {
-		case 1 -> 10;
-		case 2 -> 20;
-		case 3 -> 30;
-		case 4 -> 40;
-		case 5 -> 50;
-		default -> 10;
-		};
+//		this.speed = switch (afterGear) {
+//		case 1 -> 10;
+//		case 2 -> 20;
+//		case 3 -> 30;
+//		case 4 -> 40;
+//		case 5 -> 50;
+//		default -> 10;
+//		};
 
 		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
 		this.gear = afterGear;
